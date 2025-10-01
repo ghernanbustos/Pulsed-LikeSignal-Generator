@@ -59,7 +59,7 @@ For more detailed information have a look to **DataGenerator_Man.pdf** included 
   </p>
 </figure>
 <p align="center">
-	Signal and deformed signal by GaussBurn filter type deformation.
+	Signal and deformed signal spectrum deformed by GaussBurn filter.
 </p>     
 
 
