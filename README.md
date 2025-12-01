@@ -67,21 +67,32 @@ For more detailed information have a look to **DataGenerator_Man.pdf** included 
 The visualizations illustrate waveform distortions induced by Gaussian and low-pass filtering. 
 These examples probe the classifier’s ability to resolve nuanced structural differences, 
 emphasizing its discriminative sensitivity. G1 and G2 are for Gaussian, Pb1 and Pb2 for Low Pass filter type.
-
+<p align="center">
 | Filter Type	                |              Parameter Set Value	      |
 |-------------------------------|---------------------------------------------|
 | NoDef				| `No Filter applied`			      |
-| G1				| `ffil=0; famp=0.4; sig=2`         	      |
-| G2				| `ffil=3; famp=0.4; sig=2`                   |
+| Gauss1				| `ffil=0; famp=0.4; sig=2`         	      |
+| Gauss2				| `ffil=3; famp=0.4; sig=2`                   |
 | Pb1				| `ffil=5; Slew Rate=0.5`           	      |	
 | Pb2				| `ffil=3; Slew Rate=0.5`           	      |	
+</p>  
 <p align="center">
 	Filter type and configuration parameter value set in the application.
-	"ffil" is the central frequency.
-	"famp" is the attenuation factor at the central frequency (between 0, no attenuation, and 1, full attenuation). 
-	"sig" Only for Gaussian Filter, is the frequency width of the Gaussians (one for + freq and one for -freq).  
-	"slrate" Only for Low Pass Filter, is the attenuation profile or rate; if "slrate" is large, the profile is more square, and for small "slrate" the profile is smoother.
 </p>   
+<p align="center">
+| Parameter	                |              Definition 	      |
+|-------------------------------|---------------------------------------------|
+| "ffil"			| Central frequency.|
+| "famp" 			| Attenuation factor at the central frequency (between 0, no attenuation, and 1, full attenuation).|
+| "sig" 			| Frequency width of the Gaussians (one for + freq and one for -freq). ( Only for Gaussian Filter).|
+| "slrate" 			| The attenuation profile or rate; if "slrate" is large, the profile is more square, and for small "slrate" the profile is smoother.( Only for Low Pass Filter)|	
+
+</p>  
+
+<p align="center">
+	Paramater Definition.
+</p>   
+
 
 <figure>
   <p align="center">
