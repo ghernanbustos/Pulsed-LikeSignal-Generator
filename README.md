@@ -100,7 +100,7 @@ emphasizing its discriminative sensitivity. G1 and G2 are for Gaussian, Pb1 and 
   </p>
 </figure>
 <p align="center">
-	Sinc Waveform at different SNR noise level and filter profile deformation.
+	**Sinc** Waveform at different SNR noise level and filter profile deformation.
 </p>   
       
 <figure>
@@ -109,7 +109,7 @@ emphasizing its discriminative sensitivity. G1 and G2 are for Gaussian, Pb1 and 
   </p>
 </figure>
 <p align="center">
-	Gauss Waveform at different SNR noise level and filter profile deformation.
+	**Gauss** Waveform at different SNR noise level and filter profile deformation.
 </p>     
 
 <figure>
@@ -118,7 +118,7 @@ emphasizing its discriminative sensitivity. G1 and G2 are for Gaussian, Pb1 and 
   </p>
 </figure>
 <p align="center">
-	Chirp Waveform at different SNR noise level and filter profile deformation.
+	**Chirp** Waveform at different SNR noise level and filter profile deformation.
 </p>     
 
 ## Author
