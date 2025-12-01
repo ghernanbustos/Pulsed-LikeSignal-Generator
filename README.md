@@ -67,6 +67,7 @@ For more detailed information have a look to **DataGenerator_Man.pdf** included 
 The visualizations illustrate waveform distortions induced by Gaussian and low-pass filtering. 
 These examples probe the classifier’s ability to resolve nuanced structural differences, 
 emphasizing its discriminative sensitivity. G1 and G2 are for Gaussian, Pb1 and Pb2 for Low Pass filter type.
+For further information go to [DataGenerator_Man.pdf](https://github.com/ghernanbustos/Pulsed-LikeSignal-Generator/blob/main/DataGenerator_Man.pdf).
 
 | Filter Type	                |              Parameter Set Value	      |
 |-------------------------------|---------------------------------------------|
